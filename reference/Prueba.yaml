@@ -2,6 +2,12 @@ openapi: 3.1.0
 info:
   title: Prueba
   version: '1.0'
+  description: |-
+    * sfsdf
+
+    | dfdf | dfdf |
+    |--------|------|
+    | **sdsds** | `dfdfdf` |
 servers:
   - url: 'http://localhost:3000'
 paths:
