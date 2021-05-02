@@ -2,10 +2,36 @@ openapi: 3.1.0
 info:
   title: Webcheckout ES
   version: '1.0'
-  description: Api de ejemplo
+  description: '* Api de ejempl'
+  summary: dfdsf
 servers:
   - url: 'https://test.placetopay.com/redirection'
     description: Modo Pruebas
-paths: {}
+paths:
+  /api/collect:
+    post:
+      summary: Collect
+      operationId: post-api-collect
+      responses:
+        '200':
+          description: OK
+      description: sdfdf
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                auth:
+                  type: object
+                  required:
+                    - login
+                  description: sadsdsa
+                  properties:
+                    login:
+                      type: string
+              required:
+                - auth
+        description: ''
 components:
   schemas: {}
