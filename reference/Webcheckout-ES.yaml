@@ -1,0 +1,11 @@
+openapi: 3.1.0
+info:
+  title: Webcheckout ES
+  version: '1.0'
+  description: Api de ejemplo
+servers:
+  - url: 'https://test.placetopay.com/redirection'
+    description: Modo Pruebas
+paths: {}
+components:
+  schemas: {}
