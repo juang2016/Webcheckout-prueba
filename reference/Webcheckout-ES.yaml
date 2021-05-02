@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: Webcheckout
+  title: Webcheckout_prueba
   version: '1.0'
   description: '* Api de ejemplo'
 servers:
